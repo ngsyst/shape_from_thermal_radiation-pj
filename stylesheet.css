@@ -1,9 +1,12 @@
 *{
-    margin: 0;
-    padding: 0;
-    text-align: center;    
+    margin: auto;
+    padding: auto;
+    /* text-align: center;     */
     font-family: inherit;
 
+}
+h2{
+    margin-top: 60px;
 }
 
 header{
@@ -12,26 +15,61 @@ header{
     height: 280px;
     background-color: mistyrose;   
     color: black;    
-      
+    text-align: center;
     margin-bottom: 0;
+}
+.link{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.thumb_nail{
+    margin-top: 40px;
+    text-align: center;
+    max-width: 930px;
+}
+.thumb_nail img{
+    max-width: 100%;
+    height: auto;
 }
 
 .title{
+    text-align: center;
     font-weight: 530;
 }
 .label{
+    text-align: center;
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.link{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.abstract{
+    text-align: center;
+    max-width: 930px;
+    /* text-align: left;   */
+}
+
+.overview{
+    text-align: center;
+    max-width: 930px;
+    /* text-align: left;   */
+}
+
+.overview img{
+    max-width: 100%;
+    height: auto;
 }
 
 
-.bibTeX{
-    display: block;
-    text-align: left;   
+.bibtex{
+    text-align: center;
+}
+
+.bibtex_area{
+    min-width: 900px;
+    min-height: 120px;
+    resize: vertical;
 }
