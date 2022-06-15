@@ -1,31 +1,53 @@
 *{
-    margin: auto;
-    padding: auto;
-    /* text-align: center;     */
     font-family: inherit;
-
+    margin: 0;
+    padding: 0;
 }
 h2{
     margin-top: 60px;
+    text-align: center;
 }
 
 header{
-    width:100%;
+    /* width:100%; */
     background-color: linen;   
     color: black;    
-    text-align: center;
-    padding-bottom: 20px;
+    /* text-align: center; */
+    /* padding-bottom: 20px; */
+    margin:0 -200%;
+    padding:0 200%;
+    padding-bottom: 10px;
+
 }
+
 .link{
-    text-align: center;
+    /* text-align: center; */
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+center{
+    display: block;
+    text-align: -webkit-center;
+}
 
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 980px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-x: hidden;
+
+}
+video {
+    width: 100%;
+}
 .thumb_nail{
     margin-top: 40px;
-    text-align: center;
+    /* text-align: center; */
     max-width: 930px;
 }
 .thumb_nail img{
@@ -34,40 +56,26 @@ header{
 }
 
 .title{
-    text-align: center;
+    /* text-align: center; */
     font-weight: 530;
 }
 .label{
-    text-align: center;
+    /* text-align: center; */
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.abstract{
-    text-align: center;
-    max-width: 930px;
-    /* text-align: left;   */
-}
-
-.overview{
-    text-align: center;
-    max-width: 930px;
-    /* text-align: left;   */
-}
 
 .overview img{
     max-width: 100%;
     height: auto;
 }
 
-
-.bibtex{
-    text-align: center;
-}
-
 .bibtex_area{
-    min-width: 900px;
+    max-width: 980px;
+    max-height: 120px;
+    min-width: 100%;
     min-height: 120px;
-    resize: vertical;
+    resize: none;
 }

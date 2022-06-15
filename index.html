@@ -8,36 +8,40 @@
 </head>
 <body>
 
-  <header>
-    <h1 class="title">Shape from Thermal Radiation:<br> Passive Ranging Using Multi-spectral LWIR Measurements</h1>
-    <h4 class="label">CVPR 2022</h1>
+  <center>
+    <header>
+      <h1 class="title">Shape from Thermal Radiation:<br> Passive Ranging Using Multi-spectral LWIR Measurements</h1>
+      <h4 class="label">CVPR 2022</h1>
 
-    <div class="authors">
-      <a href="https://" target="_blank"class="author_1">Yasuto Nagase</a><sup>1</sup>
-      <a href="https://" target="_blank"class="author_2">Takahiro Kushida</a><sup>1</sup>
-      <a href="https://" target="_blank"class="author_3">Kenichiro Tanaka</a><sup>2</sup>
-      <a href="https://" target="_blank"class="author_4">Takuya Funatomi</a><sup>1</sup>
-      <a href="https://" target="_blank"class="author_5">Yasuhiro Mukaigawa</a><sup>1</sup>
-    </div>
+      <div class="authors">
+        <a href="https://" target="_blank"class="author_1">Yasuto Nagase</a><sup>1</sup>
+        <a href="http://omilab.naist.jp/~kushida/" target="_blank"class="author_2">Takahiro Kushida</a><sup>1</sup>
+        <a href="https://k-tanaka.me/" target="_blank"class="author_3">Kenichiro Tanaka</a><sup>2</sup>
+        <a href="http://omilab.naist.jp/~funatomi/index-j.html" target="_blank"class="author_4">Takuya Funatomi</a><sup>1</sup>
+        <a href="http://omilab.naist.jp/~mukaigawa/index-jp.html" target="_blank"class="author_5">Yasuhiro Mukaigawa</a><sup>1</sup>
+      </div>
 
-    <div class="affiliation">
-      <p>Nara Institute of Science and Technology (NAIST), Japan<sup>1</sup> 
-        Ritsumeikan University, Japan<sup>2</sup></p>
-    </div>
+      <div class="affiliation">
+        <p>Nara Institute of Science and Technology (NAIST), Japan<sup>1</sup> 
+          Ritsumeikan University, Japan<sup>2</sup></p>
+      </div>
 
-    <div class="link">
-      <a href="08076.pdf" target="_blank"class="pre_print">[Paper]</a>
-      <a href="https://" target="_blank"class="open_access">[Open Access (TBD)]</a>
-    </div>
-
-  </header>
-    
-  <div class="wrapper">
+      <div class="link">
+        <a href="08076.pdf" target="_blank"class="pre_print">[Paper]</a>
+        <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Nagase_Shape_From_Thermal_Radiation_Passive_Ranging_Using_Multi-Spectral_LWIR_Measurements_CVPR_2022_paper.html" target="_blank"class="open_access">[Open Access]</a>
+        <a href="poster_v1.3.pdf" target="_blank"class="poster">[Poster]</a>
+      </div>
+    </header>
 
     <div class="thumb_nail">
       <img src="img/result.PNG" alt="image" width="800"/>
       <h4>Some result of our depth sensing method: Shape from Thermal Radiation. </h4>
     </div>
+    <div class="video">
+      <h2>Video</h2>
+      <video src="5min_video_nosound.mp4" width="800" controls></video>
+    </div>
+  </center>
 
     <div class="abstract">
       <h2>Abstract</h2>
@@ -50,10 +54,16 @@
 
     <div class="overview">
       <h2>Overview</h2>
-      <img src="img/overview.PNG" alt="image" width="800"/>
+      <center><img src="img/overview.PNG" alt="image" width="800"/></center>
       <p>Overview of the shape from thermal radiation. Our method jointly estimates the depth, temperature, and emissivity images from multi-spectral LWIR images. 
-      A key observation is that thermal radiation from the target object is attenuated through the air and is wavelength dependent.</p>
+      A key observation is that thermal radiation from the target object is attenuated through the air and is wavelength dependent. When the attenuation spectrum (i.e. extinction coefficient) of the air is known, we can estimate the depth, temperature and emissivity.</p>
+    </div>
 
+    <div class="overview">
+      <h2>Advantages</h2>
+      <center><img src="img/advantages.PNG" alt="image" width="800"/></center>
+      <p>LWIR measurement observations is performed fully passively(i.e. no light source needed). Additionaly, proposal method is texture-less and far range capable because the depth is estimated based on LWIR light attenuation.
+       So, our method overcomes many weakness of conventional methods. </p>
     </div>
 
 
