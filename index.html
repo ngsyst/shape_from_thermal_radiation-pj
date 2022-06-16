@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
+<div class="body-inside">
 
   <center>
     <header>
@@ -14,16 +15,17 @@
       <h4 class="label">CVPR 2022</h1>
 
       <div class="authors">
-        <a href="https://" target="_blank"class="author_1">Yasuto Nagase</a><sup>1</sup>
-        <a href="http://omilab.naist.jp/~kushida/" target="_blank"class="author_2">Takahiro Kushida</a><sup>1</sup>
+        <a href="https://" target="_blank"class="author_1">Yasuto Nagase</a><sup>1*</sup>
+        <a href="http://omilab.naist.jp/~kushida/" target="_blank"class="author_2">Takahiro Kushida</a><sup>1*</sup>
         <a href="https://k-tanaka.me/" target="_blank"class="author_3">Kenichiro Tanaka</a><sup>2</sup>
-        <a href="http://omilab.naist.jp/~funatomi/index-j.html" target="_blank"class="author_4">Takuya Funatomi</a><sup>1</sup>
-        <a href="http://omilab.naist.jp/~mukaigawa/index-jp.html" target="_blank"class="author_5">Yasuhiro Mukaigawa</a><sup>1</sup>
+        <a href="http://omilab.naist.jp/~funatomi/index.html" target="_blank"class="author_4">Takuya Funatomi</a><sup>1</sup>
+        <a href="http://omilab.naist.jp/~mukaigawa/index.html" target="_blank"class="author_5">Yasuhiro Mukaigawa</a><sup>1</sup>
       </div>
 
       <div class="affiliation">
         <p>Nara Institute of Science and Technology (NAIST), Japan<sup>1</sup> 
           Ritsumeikan University, Japan<sup>2</sup></p>
+          <p id="contribution"><sup>*</sup>Equal contribution</p>
       </div>
 
       <div class="link">
@@ -59,10 +61,10 @@
       A key observation is that thermal radiation from the target object is attenuated through the air and is wavelength dependent. When the attenuation spectrum (i.e. extinction coefficient) of the air is known, we can estimate the depth, temperature and emissivity.</p>
     </div>
 
-    <div class="overview">
+    <div class="advantages">
       <h2>Advantages</h2>
       <center><img src="img/advantages.PNG" alt="image" width="800"/></center>
-      <p>LWIR measurement observations is performed fully passively(i.e. no light source needed). Additionaly, proposal method is texture-less and far range capable because the depth is estimated based on LWIR light attenuation.
+      <p>LWIR measurement observation is performed fully passively(i.e. no light source needed). Additionaly, proposal method is texture-less and far range capable because the depth is estimated based on LWIR light attenuation.
        So, our method overcomes many weakness of conventional methods. </p>
     </div>
 
@@ -70,12 +72,14 @@
     <div class="bibtex">
       <h2>BibTeX</h2>
 			<div>
-				<textarea class="bibtex_area" readonly>
-@article{Nagase2022,
-title={Shape from Thermal Radiation: Passive Ranging Using Multi-spectral LWIR Measurements},
-author={Yasuto Nagase and Takahiro Kushida and Kenichiro Tanaka and Takuya Funatomi and Yasuhiro Mukaigawa},
-booktitle = {IEEE Conf. Comput. Vis. Pattern Recog.},
-year={2022}
+				<textarea class="bibtex_area" readonly wrap="off">
+@InProceedings{Nagase_2022_CVPR,
+  author    = {Nagase, Yasuto and Kushida, Takahiro and Tanaka, Kenichiro and Funatomi, Takuya and Mukaigawa, Yasuhiro},
+  title     = {Shape From Thermal Radiation: Passive Ranging Using Multi-Spectral LWIR Measurements},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month     = {June},
+  year      = {2022},
+  pages     = {12661-12671}
 }</textarea>
 			</div>
 
@@ -84,9 +88,9 @@ year={2022}
 
 
 
-
+  
   <footer>
   </footer>
-  
+</div>  
 </body>  
 </html>
